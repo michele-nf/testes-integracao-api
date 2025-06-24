@@ -23,6 +23,6 @@ jobs:
         working-directory: ./cypress
 
       - name: Run Cypress API tests
-        run: npx cypress run --spec "cypress/e2e/api-json-placeholder.cy.js"
+        run: npx cypress run --spec "cypress/component/ComponentName.cy.js"
         working-directory: ./cypress
 
