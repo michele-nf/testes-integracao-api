@@ -22,7 +22,7 @@ jobs:
         run: npm install
         working-directory: ./cypress
 
-      - name: Run Cypress API tests
-        run: npx cypress run --spec "cypress/component/ComponentName.cy.js"
+      - name: Run Cypress Component tests
+        run: npx cypress run --component --spec "cypress/component/ComponentName.cy.js"
         working-directory: ./cypress
 
